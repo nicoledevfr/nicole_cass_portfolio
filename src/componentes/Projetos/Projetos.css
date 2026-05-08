@@ -1,0 +1,76 @@
+.container_projetos {
+    margin-top: 300px;
+}
+
+.container_projetos > h1 {
+ text-align: center;
+ color: white;
+ font-family: var(--fonte-secundaria);
+ font-weight: bold;
+ font-size: 50px;
+}
+.container_projetos h1 span {
+    color: var(--cor-contraste);
+}
+.container_cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.cards {
+    background-color: rgb(0, 0, 0);
+     margin: 10px;
+     border-radius: 13px;
+     width: 30%;
+     height: auto;
+     border: 1px solid white;
+    
+}
+.cards h2, p, .barra_tecnologias {
+    font-family: var(--fonte-secundaria);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.cards p {
+    font-weight: 100;
+}
+
+.img_projeto {
+    width: 100%;
+    border-radius: 13px 13px 0px 0px;
+   
+}
+.barra_tecnologias {
+    border: 1px solid white;
+    color: rgb(143, 140, 140);
+    background-color: black;
+    border-radius: 2px;
+    margin-left: 12px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    
+}
+.linha {
+    height: 1px;
+    background-color: rgb(170, 168, 168);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.botao_verSite {
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+}
+.container_botao_site {
+    display: flex;
+    justify-content: right;
+    
+}
