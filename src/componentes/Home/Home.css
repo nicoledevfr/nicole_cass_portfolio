@@ -74,3 +74,19 @@ body {
   opacity: 0.5;
   z-index: 0;
 }
+/* ajusta responsividade da digitando */
+@media (max-width: 1150px){
+
+    .subtitulo_frase {
+        font-size: 1.0rem;
+    }
+
+}
+@media (max-width: 950px){
+
+    .subtitulo_frase {
+        font-size: 0.7rem;
+    }
+
+}
+   
