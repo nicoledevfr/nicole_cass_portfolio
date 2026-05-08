@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+}
+.titulo_nome {
+  font-family: var(--fonte-primaria);
+  font-weight: 100;
+  color: white;
+  font-size: 85px;
+  margin-bottom: 0px;
+}
+.titulo_nome span {
+  color: var(--cor-contraste);
+}
+.subtitulo_frase {
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-contraste);
+  font-weight: 100;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #6fdcff;
+  width: 0;
+  animation: digitando 3s steps(30, end) forwards,
+      cursor .8s infinite;
+}
+@keyframes digitando{
+    from{
+        width: 0;
+    }
+
+    to{
+        width: 48%;
+    }
+}
+
+@keyframes cursor{
+    50%{
+        border-color: transparent;
+    }
+}
+.container_home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 250px;
+}
+.container_esquerda {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.container_direita {
+  margin-right: 50px;
+}
+.minha_foto {
+  border: 15px;
+  border-color: var(--cor-contraste);
+  width: 400px;
+  position: relative;
+  z-index: 1;
+}
+.container_foto {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.glow {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: #3b6472;
+  border-radius: 50%;
+  filter: blur(50px);
+  opacity: 0.5;
+  z-index: 0;
+}

@@ -1,4 +1,5 @@
-import Home from "./componentes/Home/Home";
+import Home from "./componentes/Menu/Menu";
+import Menu from "./componentes/Home/Home"
 
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <Home />
+      <Menu />
     </>
   )
 
