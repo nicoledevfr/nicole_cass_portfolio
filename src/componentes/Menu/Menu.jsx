@@ -9,9 +9,9 @@ function Menu() {
         </div>
         <div className="container_nav">
           <nav>
+            <a href="">Contato</a>
             <a href="">Habilidades</a>
             <a href="">Meus projetos</a>
-            <a href="">Contato</a>
           </nav>
         </div>
       </div>

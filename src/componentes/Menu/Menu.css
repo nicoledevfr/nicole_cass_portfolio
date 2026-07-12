@@ -1,6 +1,6 @@
 .container_menu {
     display: flex;
-    color: var(--cor-contraste);
+  
     justify-content: space-between;
     gap: 40px;
     height: 80px;
@@ -10,13 +10,36 @@
 }
 .container_menu h4 {
     margin-left: 20px;
+  color: var(--cor-contraste);
 }
 
 .container_menu a {
     margin: 0px 20px 0px 40px;
+    color: white;
 }
-
+.container_nav {
+    display: flex;
+}
 a {
     color: var(--cor-contraste);
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .container_menu {
+    font-size: 15px;
+    }   
+    nav {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+       
+        
+    }
+    .container_menu {
+       flex-direction: column;
+       margin-bottom: 100px;
+      
+    }
 }
