@@ -6,7 +6,7 @@
  text-align: center;
  color: white;
  font-family: var(--fonte-secundaria);
- font-weight: bold;
+ font-weight: 200;
  font-size: 50px;
 }
 .container_projetos h1 span {
