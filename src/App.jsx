@@ -1,15 +1,17 @@
-import Home from "./componentes/Menu/Menu";
-import Menu from "./componentes/Home/Home";
+import Home from "./componentes/Home/Home";
+import Menu from "./componentes/Menu/Menu";
 import Projetos from "./componentes/Projetos/Projetos";
 import Habilidades from "./componentes/Habilidades/Habilidades";
+import Contato from "./componentes/Contato/Contato";
 
 function App() {
   return (
     <>
-      <Home />
       <Menu />
+      <Home />
       <Projetos />
       <Habilidades />
+      <Contato />
     </>
   );
 }
