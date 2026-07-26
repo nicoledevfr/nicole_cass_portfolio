@@ -1,0 +1,151 @@
+.container_habilidades {
+  margin-top: 300px;
+}
+.titulo-habilidade {
+  color: var(--cor-contraste);
+  font-size: 50px;
+  text-align: center;
+  font-family: var(--fonte-secundaria);
+  font-weight: 200;
+}
+.cards_skills {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding: 0 clamp(15px, 5vw, 80px);
+}
+
+.card-esquerda,
+.card-direita {
+  width: 400px;
+  height: 600px;
+  background-color: #141414;
+  margin-bottom: 100px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: 0.3s ease;
+}
+.card-esquerda {
+    position: relative;
+    overflow: hidden;
+}
+.tinta > img {
+width: 300px;
+position: absolute;
+top: -120px;
+left: -70px;
+}
+.card-esquerda:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+.card-direita {
+ position: relative;
+  overflow: hidden;   
+}
+
+.card-direita:hover {
+  
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+.contraste-titulo-habilidade {
+    color: white;
+}
+.engrenagem {
+  position: absolute;
+  top: -45px;
+  right: -60px;
+  font-size: 220px;
+  color: #c5f3ff;
+  z-index: 0;
+  transition: transform 0.6s ease;
+  
+}
+ .card-direita:hover .engrenagem {
+    transform: translateX(25px) rotate(90deg);
+}
+.titulocard {
+  font-size: 30px;
+  color: white;
+  font-family: var(--fonte-secundaria);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 60px;
+  position: relative;
+  z-index: 1;
+}
+.contraste-titulo-frontend {
+    color: black;
+}
+.contraste-titulo-backend {
+  color: black;
+}
+.descricao-card {
+  text-align: center;
+  font-size: 15px;
+  padding: 0 clamp(15px, 5vw, 80px);
+  font-family: var(--fonte-secundaria);
+  margin-top: 180px;
+}
+.lista-card {
+  color: white;
+  font-family: var(--fonte-secundaria);
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 clamp(15px, 5vw, 80px);
+  margin-top: 60px;
+  line-height: 25px;
+}
+
+.nivel-experiencia-card {
+  font-weight: 200;
+  font-size: 13px;
+  color: rgb(129, 128, 128);
+}
+.nome-tecnologia > li:hover {
+  color: var(--cor-contraste);
+}
+.img-tinta {
+ position: absolute;
+  width: 160px;
+ 
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  transform: scale(1);
+}
+
+.card-esquerda:hover .img-tinta {
+  transform: scale(1.2);
+  
+}
+.simbolo-nodejs {
+  color: rgb(6, 90, 23);
+}
+.simbolo-expressjs {
+  color: rgb(6, 90, 23);
+}
+.simbolo-postgreSQL {
+  color: #316192;
+}
+.simbolo-SQL {
+  color: #316192;
+}
+.simbolo-API {
+  color: #316192;
+}
+.simbolo-html {
+    color: rgb(169, 100, 35);
+}
+.simbolo-css {
+  color: #316192;
+}
+.simbolo-react {
+  color: #3e78b2;
+}
+.simbolo-vite {
+  color: #894db1;
+}
+.simbolo-reactrouter {
+    color: rgb(124, 8, 8);
+}
