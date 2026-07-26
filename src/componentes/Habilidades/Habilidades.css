@@ -10,14 +10,15 @@
 }
 .cards_skills {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 80px;
   margin-top: 100px;
   padding: 0 clamp(15px, 5vw, 80px);
 }
 
 .card-esquerda,
 .card-direita {
-  width: 400px;
+  width: 30%;
   height: 600px;
   background-color: #141414;
   margin-bottom: 100px;
@@ -49,9 +50,7 @@ left: -70px;
   transform: translateY(-8px);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
-.contraste-titulo-habilidade {
-    color: white;
-}
+
 .engrenagem {
   position: absolute;
   top: -45px;
@@ -74,14 +73,9 @@ left: -70px;
   margin-top: 60px;
   position: relative;
   z-index: 1;
+  mix-blend-mode: exclusion;
 }
-.contraste-titulo-frontend {
-    color: black;
-}
-.contraste-titulo-backend {
-  color: black;
-}
-.descricao-card {
+  .descricao-card {
   text-align: center;
   font-size: 15px;
   padding: 0 clamp(15px, 5vw, 80px);
@@ -110,14 +104,12 @@ left: -70px;
 .img-tinta {
  position: absolute;
   width: 160px;
- 
   transition: transform 0.5s ease, opacity 0.5s ease;
   transform: scale(1);
 }
 
 .card-esquerda:hover .img-tinta {
   transform: scale(1.2);
-  
 }
 .simbolo-nodejs {
   color: rgb(6, 90, 23);

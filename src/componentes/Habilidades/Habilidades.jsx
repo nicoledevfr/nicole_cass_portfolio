@@ -15,7 +15,7 @@ import tinta from "../../assets/tinta.png";
 
 function Habilidades() {
   return (
-    <div className="container_habilidades">
+    <div id="habilidades" className="container_habilidades">
       <h1 className="titulo-habilidade">H<span className="contraste-titulo-habilidade">a</span>bilidades</h1>
       <div className="cards_skills">
         <div className="card-esquerda">
@@ -60,20 +60,20 @@ function Habilidades() {
           <div className="lista-card">
             <ul className="nome-tecnologia">
               <li>
-                Node.js <FaNodeJs className="simbolo-nodejs" />{" "}
+                Node.js <FaNodeJs className="simbolo-nodejs" />
               </li>
               <li>
-                Express.js <SiExpress className="simbolo-expressjs" />{" "}
+                Express.js <SiExpress className="simbolo-expressjs" />
               </li>
               <li>
                 PostgreSQL{" "}
-                <DiPostgresql size={15} className="simbolo-postgreSQL" />{" "}
+                <DiPostgresql size={15} className="simbolo-postgreSQL" />
               </li>
               <li>
-                SQL <TbSql className="simbolo-SQL" />{" "}
+                SQL <TbSql className="simbolo-SQL" />
               </li>
               <li>
-                Rest API <FaServer size={10} className="simbolo-API" />{" "}
+                Rest API <FaServer size={10} className="simbolo-API" />
               </li>
             </ul>
             <ul className="nivel-experiencia-card">
