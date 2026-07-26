@@ -9,6 +9,9 @@
  font-weight: 200;
  font-size: 50px;
 }
+.titulo-meus-projetos {
+    margin-bottom: 40px;
+}
 .container_projetos h1 span {
     color: var(--cor-contraste);
 }

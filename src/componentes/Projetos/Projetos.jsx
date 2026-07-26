@@ -3,8 +3,8 @@ import imagemBreve from "../../assets/EM BREVE.png"
 import { FaExternalLinkAlt } from "react-icons/fa";
 function Projetos() {
   return (
-    <div className="container_projetos">
-      <h1>
+    <div id="projetos" className="container_projetos">
+      <h1 className="titulo-meus-projetos">
         Meus<span>  Projetos</span>
       </h1>
       <div className="container_cards">
